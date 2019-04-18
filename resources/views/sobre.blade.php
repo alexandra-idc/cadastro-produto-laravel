@@ -25,6 +25,13 @@
                 margin: 0;
             }
 
+            #interface{
+                width: 1350px;
+                margin: auto auto auto auto;
+                color: #CFD1CF;
+                background-repeat: repeat-x;
+            }
+
             .full-height {
                 height: 100vh;
             }
@@ -62,16 +69,23 @@
                 text-transform: uppercase;
             }
             a:hover{
-            	color: #636b6f;
+                color: #636b6f;
             }
 
             .m-b-md {
                 margin-bottom: 30px;
             }
+            footer p{
+                font-weight: bold;
+                color: #212321;
+            }
+            .final{
+                text-align: center;
+            }
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
+        <div id="interface">
             <div class="content">
                 <div class="links">
                     <a href="{{url('index')}}">Início</a>
@@ -84,7 +98,7 @@
 
                 <br>
                 <div class="inicio">
-                	<h2>SOBRE</h2>
+                	<h2  style="color: black;">SOBRE</h2>
                 	<small>Sobre a GerenciaNet</small>
                 </div>
                 <br>
@@ -143,7 +157,7 @@
                 	</div>
                 </div>
                 <div id="map">
-                    <p>Nosso endereço</p>
+                    <h3 style="color: black;">Nosso endereço</h3>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7320.935289164089!2d-51.919670528457374!3d-23.443590299999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e81a413a9c9463%3A0x4e3ee356ad1bd6c3!2sUniCesumar+-+Maring%C3%A1!5e0!3m2!1spt-BR!2sbr!4v1555604747752!5m2!1spt-BR!2sbr" width="1200" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
             </div>
