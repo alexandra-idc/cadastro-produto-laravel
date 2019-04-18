@@ -24,6 +24,13 @@
                 margin: 0;
             }
 
+            #interface{
+                width: 1350px;
+                margin: auto auto auto auto;
+                color: #CFD1CF;
+                background-repeat: repeat-x;
+            }
+
             .full-height {
                 height: 100vh;
             }
@@ -67,10 +74,24 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+
+            footer p{
+                font-weight: bold;
+                color: #212321;
+            }
+            .final{
+                border-style: solid;
+                border-width: 1px;
+                border-top: solid;
+                border-left: none;
+                border-right: none;
+                border-bottom: none;
+                text-align: center;
+            }
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
+        <div id="interface">
             <div class="content">
                 <div class="links">
                     <a href="{{url('index')}}">Início</a>
@@ -84,7 +105,7 @@
                 <br>
                 <div class="inicio">
                 	<h1>GERENCIA NET</h1>
-                	<small>Cadastro e Gerenciamento de Produtos</small>
+                	<small style="font-weight: bold;">Cadastro e Gerenciamento de Produtos</small>
                 </div>
                 <br>
                 <div class="intro">
