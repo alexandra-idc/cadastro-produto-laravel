@@ -24,6 +24,12 @@
                 margin: 0;
             }
 
+            #interface{
+                width: 1350px;
+                margin: auto auto auto auto;
+                color: black;
+                background-repeat: repeat-x;
+            }
             .full-height {
                 height: 100vh;
             }
@@ -70,7 +76,7 @@
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
+        <div id="interface">
             <div class="content">
                 <div class="links">
                     <a href="{{url('index')}}">Início</a>
