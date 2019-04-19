@@ -23,5 +23,5 @@
 @endforeach
     </tbody>
   </table>
-
+{!! $categorias->links() !!}
 @endsection
