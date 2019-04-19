@@ -28,12 +28,12 @@ class SiteController extends Controller
     }
 
     public function produto(){
-    	$produtos = $this->produto->paginate(4);
+    	$produtos = $this->produto->orderBy('created_at', 'DESC')->paginate(4);
     	return view('gerenciar-produto', compact('produtos'));
     }
 
     public function categoria(){
-        $categorias = $this->categoria->paginate(4);
+        $categorias = $this->categoria->orderBy('created_at', 'DESC')->paginate(4);
         return view('gerenciar-categoria', compact('categorias'));
     }
 
