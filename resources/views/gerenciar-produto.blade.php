@@ -23,5 +23,5 @@
 @endforeach
     </tbody>
   </table>
-
+{!! $produtos->links() !!}
 @endsection
