@@ -22,6 +22,7 @@
                 font-weight: 200;
                 height: 100vh;
                 margin: 0;
+                overflow-x: hidden;
             }
 
             #interface{
@@ -99,8 +100,6 @@
                     <a href="{{url('gerenciar-categoria')}}">Gerenciar Categorias</a>
                     <a href="{{url('sobre')}}">Sobre</a>
                 </div>
-
-                @yield('content')
 
                 <br>
                 <div class="inicio">
