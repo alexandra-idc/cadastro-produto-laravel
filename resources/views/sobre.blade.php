@@ -23,6 +23,7 @@
                 font-weight: 200;
                 height: 100vh;
                 margin: 0;
+                overflow-x: hidden;
             }
 
             #interface{
