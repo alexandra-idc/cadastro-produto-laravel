@@ -103,32 +103,31 @@
                 	<small>Sobre a GerenciaNet</small>
                 </div>
                 <br>
-                <div class="sobre">
-                    <p>
-                        <strong>
-                            QUEM SOMOS
-                        </strong>
-                        <br>
-                        A GerenciaNet é uma empresa especializada no ramo de cadastro de produtos. Está em operação desde 2009, e possuí uma vasta experiência no mercado.
-                    </p> 
-                    <p>
-                        <strong>
-                            SERVIÇOS
-                        </strong>
-                        <br>
-                        Os serviços prestados pela GerenciaNet são Cadastro de Produtos em Geral; onde todos esse serviço está disponível a todos os clientes da empresa.   
-                    </p> 
-                    <p>
-                        <strong>
-                            DESENVOLVIDO
-                        </strong>
-                        <br>
-                        Desenvolvido por <a href="http://www.matheus.cafe">Matheus Henrique</a>.
-                        <br>
-                        Contato (67)9 8156-9048<br>
-                        contato@matheus.cafe<br>
-                        <a href="https://github.com/MatheusHenriqueF/">github/matheushfl</a>
-                    </p> 
+                <div class="demostracao">
+                    <div class="novidade">
+                        <i class="fa fa-globe" style="font-size:128px;color:#4286f4"></i>
+                        <p>
+                            Use onde tiver
+                        </p>
+                    </div>
+                    <div class="novidade">
+                        <i class="fa fa-power-off" style="font-size:128px;color:#4286f4"></i>
+                        <p>
+                            Delete seu produto quando quiser
+                        </p>
+                    </div>
+                    <div class="novidade">
+                        <i class="fa fa-question-circle-o" style="font-size:128px;color:#4286f4"></i>
+                        <p>
+                            Suporte em horário comercial
+                        </p>
+                    </div>
+                    <div class="novidade">
+                        <i class="fa fa-rocket" style="font-size:128px;color:#4286f4"></i>
+                        <p>
+                            Em poucos clique você adiciona seu Produto
+                        </p>
+                    </div>
                 </div>
 
                 <div class="demostracao">
