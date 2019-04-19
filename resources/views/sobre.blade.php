@@ -102,6 +102,16 @@
                 	<h2  style="color: black;">SOBRE</h2>
                 	<small>Sobre a GerenciaNet</small>
                 </div>
+                <div class="inicio">
+                    <h2  style="color: black;">CONTATO</h2>
+                    <small>CEO: <a href="matheus.cafe">Matheus Henrique</a><br>
+                        <a href="https://github.com/MatheusHenriqueF">github/matheushenrique</a>
+                    <br>
+                    Telefone: (67)9 8156-9048<br>
+                    contato@matheus.cafe
+                    <br>
+                    </small>
+                </div>
                 <br>
                 <div class="demostracao">
                     <div class="novidade">
